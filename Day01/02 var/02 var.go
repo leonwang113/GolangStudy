@@ -25,14 +25,14 @@ func main() {
 
 	// ***************************************变量赋值***************************************
 
-	// 1 现声明再赋值
+	// 1 先声明再赋值
 	var x1 int8
 	x1 = 100
 	fmt.Println(x1)
 
 	// 2. 声明并赋值
 	// var y1 06 string = "yuan"
-	var y1 = "yuan"
+	var y1 = "wang5"
 	fmt.Println(y1)
 
 	// 3. 简洁赋值
@@ -45,7 +45,7 @@ func main() {
 	fmt.Println(a1,b1)
 
 	// 5. 一行赋值多个变量
-	var c1,d1,e1 = 100,"hi yuan", false
+	var c1,d1,e1 = 100,"hi zhang3", false
 	fmt.Println(c1,d1,e1)
 
 	// 6. 多行赋值多个变量
