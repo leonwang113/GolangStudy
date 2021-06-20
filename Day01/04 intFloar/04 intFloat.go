@@ -6,9 +6,32 @@ import (
 )
 
 func main() {
+	//**********************整型******************
 	var x = 10
 	fmt.Println(x, reflect.TypeOf(x))
 
+
+	//**********************进制转化******************
+	// 十进制转化
+	var a int = 10
+	fmt.Printf("%d \n", a)  // 10    占位符%d表示十进制
+	fmt.Printf("%b \n", a)  // 1010  占位符%b表示二进制
+	fmt.Printf("%o \n", a)  // 12    占位符%o表示八进制
+	fmt.Printf("%x \n", a)  // a     占位符%x表示十六进制
+
+	// 八进制转化
+	var b int = 020
+	fmt.Printf("%o \n", b)  // 20
+	fmt.Printf("%d \n", b)  // 16
+	fmt.Printf("%x \n", b)  // 10
+	fmt.Printf("%b \n", b)  // 10000
+
+	// 十六进制转化
+	var c = 0x12
+	fmt.Printf("%d \n", c)  // 18
+	fmt.Printf("%o \n", c)  // 22
+	fmt.Printf("%x \n", c)  // 12
+	fmt.Printf("%b \n", c)  // 10010
 
 	//**************************浮点型********************
 	var f1 = 3.14
